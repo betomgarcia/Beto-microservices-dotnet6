@@ -1,5 +1,4 @@
 ﻿using GeekShopping.ProductApi.Data.ValueObjects;
-using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
