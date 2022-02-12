@@ -10,12 +10,12 @@ namespace GeekShopping.ProductApi.Model
         [Column("name")]
         [Required]
         [StringLength(150)]
-        public int Name { get; set; }
+        public string Name { get; set; }
 
 
-        [Column("price")]
+        [Column("price", TypeName = "decimal(18, 2)")]
         [Required]
-        [Range(1, 10000)]
+        [Range(1, 9999999999999999.99)]
         public decimal Price { get; set; }
 
         [Column("description")]
@@ -24,7 +24,7 @@ namespace GeekShopping.ProductApi.Model
 
         [Column("category_name")]
         [StringLength(50)]
-        public string CategoryName { get; set; } 
+        public string CategoryName { get; set; }
 
         [Column("image_url")]
         [StringLength(300)]
