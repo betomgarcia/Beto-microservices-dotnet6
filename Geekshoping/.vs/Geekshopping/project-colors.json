@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8ece60ea-ea95-460c-83c1-e6908637a325": {
+      "ProjectGuid": "8ece60ea-ea95-460c-83c1-e6908637a325",
+      "DisplayName": "GeekShopping.ProductApi",
+      "ColorIndex": 0
+    },
+    "6b06fa9a-da83-4c45-9b52-86ff27d58b36": {
+      "ProjectGuid": "6b06fa9a-da83-4c45-9b52-86ff27d58b36",
+      "DisplayName": "GeekShopping.Web",
+      "ColorIndex": 1
+    },
+    "d4469233-e5b2-493a-84c7-0802e89cad28": {
+      "ProjectGuid": "d4469233-e5b2-493a-84c7-0802e89cad28",
+      "DisplayName": "GeekShopping.Web",
+      "ColorIndex": 2
+    },
+    "d44e4f5c-d6a4-45fa-828a-a24cda730c66": {
+      "ProjectGuid": "d44e4f5c-d6a4-45fa-828a-a24cda730c66",
+      "DisplayName": "GeekShopping.Web",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

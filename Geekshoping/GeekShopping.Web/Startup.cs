@@ -6,6 +6,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace GeekShopping.Web
 {
@@ -22,7 +25,7 @@ namespace GeekShopping.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHttpClient<IProductService, ProductService>(
-                c => c.BaseAddress = new Uri(Configuration["ServiceUrls:ProductApi"]));
+               c => c.BaseAddress = new Uri(Configuration["ServiceUrls:ProductApi"]));
 
             services.AddControllersWithViews();
         }

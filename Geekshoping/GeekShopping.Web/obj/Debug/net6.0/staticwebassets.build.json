@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MkCBqySYJhR+jFvW9DQxoVWOjHtdElm1idy7zX5z4BE=",
+  "Hash": "Zewzd60x4mF9gKbFoeJbT4ADdY08GDx36JKuK3XUf+g=",
   "Source": "GeekShopping.Web",
   "BasePath": "_content/GeekShopping.Web",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Codigos\\Beto-microservices-dotnet6\\Geekshoping\\GeekShopping.Web\\wwwroot\\images\\favicon.png",
+      "SourceId": "GeekShopping.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Codigos\\Beto-microservices-dotnet6\\Geekshoping\\GeekShopping.Web\\wwwroot\\",
+      "BasePath": "_content/GeekShopping.Web",
+      "RelativePath": "images/favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Codigos\\Beto-microservices-dotnet6\\Geekshoping\\GeekShopping.Web\\wwwroot\\images\\geek_shopping.png",
+      "SourceId": "GeekShopping.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Codigos\\Beto-microservices-dotnet6\\Geekshoping\\GeekShopping.Web\\wwwroot\\",
+      "BasePath": "_content/GeekShopping.Web",
+      "RelativePath": "images/geek_shopping.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\geek_shopping.png"
     },
     {
       "Identity": "C:\\Codigos\\Beto-microservices-dotnet6\\Geekshoping\\GeekShopping.Web\\wwwroot\\js\\site.js",
