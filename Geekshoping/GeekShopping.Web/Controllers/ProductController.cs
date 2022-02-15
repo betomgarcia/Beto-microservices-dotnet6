@@ -1,4 +1,5 @@
-﻿using GeekShopping.Web.Service.IServices;
+﻿using GeekShopping.Web.Models;
+using GeekShopping.Web.Service.IServices;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
@@ -18,6 +19,27 @@ namespace GeekShopping.Web.Controllers
         {
             var produtos = await _productService.FindAllProducts();
             return View(produtos);
+        }
+
+        public async Task<IActionResult> ProductCreate()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ProductCreate(ProductModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var response = await _productService.CreateProduct(model);
+
+                if (response != null) return RedirectToAction("ProductIndex");
+
+
+            }
+
+           
+            return View(model);
         }
     }
 }
