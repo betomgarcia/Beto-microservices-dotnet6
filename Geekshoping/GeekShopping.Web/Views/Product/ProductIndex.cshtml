@@ -9,7 +9,7 @@
         </div>
         <div class="col text-end pt-1">
             <a asp-action="ProductCreate" class="btn btn-outline-primary">
-                <i class="fas fa-plus"></i> Criar Novo Produto
+                <i class="fas fa-plus"></i> Novo Produto
             </a>
         </div>
     </div>
@@ -31,7 +31,7 @@
                     <td>@item.CategoryName</td>
                     <td>@((item.Price).ToString("c"))</td>
                     <td>
-                        <a asp-action="ProductEdit" class="btn btn-success" asp-route-id="@item.Id" >
+                        <a asp-action="ProductUpdate" class="btn btn-success" asp-route-id="@item.Id" >
                             <i class="fas fa-edit"></i>
                         </a>
                     </td>
