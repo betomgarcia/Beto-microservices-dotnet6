@@ -1,0 +1,9 @@
+C:\Codigos\Beto-microservices-dotnet6\Geekshoping\Geekshoping.IdentityServer\obj\Debug\net5.0\Geekshoping.IdentityServer.csproj.AssemblyReference.cache
+C:\Codigos\Beto-microservices-dotnet6\Geekshoping\Geekshoping.IdentityServer\obj\Debug\net5.0\Geekshoping.IdentityServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Codigos\Beto-microservices-dotnet6\Geekshoping\Geekshoping.IdentityServer\obj\Debug\net5.0\Geekshoping.IdentityServer.AssemblyInfoInputs.cache
+C:\Codigos\Beto-microservices-dotnet6\Geekshoping\Geekshoping.IdentityServer\obj\Debug\net5.0\Geekshoping.IdentityServer.AssemblyInfo.cs
+C:\Codigos\Beto-microservices-dotnet6\Geekshoping\Geekshoping.IdentityServer\obj\Debug\net5.0\Geekshoping.IdentityServer.csproj.CoreCompileInputs.cache
+C:\Codigos\Beto-microservices-dotnet6\Geekshoping\Geekshoping.IdentityServer\obj\Debug\net5.0\Geekshoping.IdentityServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Codigos\Beto-microservices-dotnet6\Geekshoping\Geekshoping.IdentityServer\obj\Debug\net5.0\Geekshoping.IdentityServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Codigos\Beto-microservices-dotnet6\Geekshoping\Geekshoping.IdentityServer\obj\Debug\net5.0\Geekshoping.IdentityServer.RazorAssemblyInfo.cache
+C:\Codigos\Beto-microservices-dotnet6\Geekshoping\Geekshoping.IdentityServer\obj\Debug\net5.0\Geekshoping.IdentityServer.RazorAssemblyInfo.cs
