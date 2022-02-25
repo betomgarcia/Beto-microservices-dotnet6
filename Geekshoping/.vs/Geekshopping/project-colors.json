@@ -20,7 +20,17 @@
       "ProjectGuid": "d44e4f5c-d6a4-45fa-828a-a24cda730c66",
       "DisplayName": "GeekShopping.Web",
       "ColorIndex": 3
+    },
+    "8dd07d37-cb04-433d-b875-703e0c422ac1": {
+      "ProjectGuid": "8dd07d37-cb04-433d-b875-703e0c422ac1",
+      "DisplayName": "Geekshoping.IdentityServer",
+      "ColorIndex": 4
+    },
+    "7aa932fd-4c75-4bed-86e1-7d470f904254": {
+      "ProjectGuid": "7aa932fd-4c75-4bed-86e1-7d470f904254",
+      "DisplayName": "Geekshoping.IdentityServer",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 6
 }

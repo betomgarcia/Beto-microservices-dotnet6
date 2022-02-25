@@ -1,5 +1,10 @@
+using Geekshoping.IdentityServer.Configuration;
+using Geekshoping.IdentityServer.Model;
+using Geekshoping.IdentityServer.Model.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -22,6 +27,31 @@ namespace Geekshoping.IdentityServer
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var connection = Configuration["MySQlConnection:MySQlConnectionString"];
+
+            services.AddDbContext<MySqlContext>(options => options.
+                    UseMySql(connection,
+                    new MySqlServerVersion(
+                        new Version(8, 0, 28))));
+
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<MySqlContext>()
+                .AddDefaultTokenProviders();
+
+            var builder = services.AddIdentityServer(options =>
+            {
+                options.Events.RaiseErrorEvents = true;
+                options.Events.RaiseInformationEvents = true;
+                options.Events.RaiseFailureEvents = true;
+                options.Events.RaiseSuccessEvents = true;
+                options.EmitStaticAudienceClaim = true;
+            }).AddInMemoryIdentityResources(IdentityConfiguration.IdentityResources)
+              .AddInMemoryApiScopes(IdentityConfiguration.ApiScopes)
+              .AddInMemoryClients(IdentityConfiguration.Clients)
+              .AddAspNetIdentity<ApplicationUser>();
+
+            builder.AddDeveloperSigningCredential();
+
             services.AddControllersWithViews();
         }
 
@@ -39,6 +69,8 @@ namespace Geekshoping.IdentityServer
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseIdentityServer();
 
             app.UseAuthorization();
 
