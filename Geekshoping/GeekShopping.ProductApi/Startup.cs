@@ -44,14 +44,14 @@ namespace GeekShopping.ProductApi
             services.AddControllers();
 
             services.AddAuthentication("Bearer")
-                .AddJwtBearer(options =>
-                {
-                    options.Authority = "https://localhost:4435/";
-                    options.TokenValidationParameters = new TokenValidationParameters
-                    {
-                        ValidateAudience = false
-                    };
-                });
+                .AddJwtBearer("Bearer", options =>
+                 {
+                     options.Authority = "https://localhost:4435/";
+                     options.TokenValidationParameters = new TokenValidationParameters
+                     {
+                         ValidateAudience = false
+                     };
+                 });
 
             services.AddAuthorization(options =>
             {
@@ -66,7 +66,7 @@ namespace GeekShopping.ProductApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "GeekShopping.ProductApi", Version = "v1" });
                 c.EnableAnnotations();
-                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme 
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     Description = @"Digite 'Bearer' [espaço] e seu token!",
                     Name = "Authorization",
