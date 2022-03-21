@@ -740,3 +740,4 @@ D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\Geekshoping.Iden
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\Geekshoping.IdentityServer\obj\Debug\net6.0\Geekshoping.IdentityServer.pdb
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\Geekshoping.IdentityServer\obj\Debug\net6.0\Geekshoping.IdentityServer.genruntimeconfig.cache
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\Geekshoping.IdentityServer\obj\Debug\net6.0\ref\Geekshoping.IdentityServer.dll
+D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\Geekshoping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-2B71E874F4838EFEF46B05ED3204EF88.json
