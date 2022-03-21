@@ -1406,24 +1406,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\betom\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\betom\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Codigos\\Beto-microservices-dotnet6\\Geekshoping\\GeekShopping.CartApi\\GeekShopping.CartApi.csproj",
+      "projectUniqueName": "D:\\Projeto_Microservices\\Beto-microservices-dotnet6\\Geekshoping\\GeekShopping.CartApi\\GeekShopping.CartApi.csproj",
       "projectName": "GeekShopping.CartApi",
-      "projectPath": "C:\\Codigos\\Beto-microservices-dotnet6\\Geekshoping\\GeekShopping.CartApi\\GeekShopping.CartApi.csproj",
+      "projectPath": "D:\\Projeto_Microservices\\Beto-microservices-dotnet6\\Geekshoping\\GeekShopping.CartApi\\GeekShopping.CartApi.csproj",
       "packagesPath": "C:\\Users\\betom\\.nuget\\packages\\",
-      "outputPath": "C:\\Codigos\\Beto-microservices-dotnet6\\Geekshoping\\GeekShopping.CartApi\\obj\\",
+      "outputPath": "D:\\Projeto_Microservices\\Beto-microservices-dotnet6\\Geekshoping\\GeekShopping.CartApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\betom\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1502,7 +1497,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

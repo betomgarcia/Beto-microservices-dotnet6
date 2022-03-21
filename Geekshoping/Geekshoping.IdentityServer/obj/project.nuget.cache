@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1viXdFU4rFwZYyiR8MTL9JxBFbOIt1+ZBoTVdgbiA3r0LovFATleLRviKaS3g9OhFZLGNU7C1RKe5gzMC54v2A==",
+  "dgSpecHash": "n3U58Y+XI2kpNeQ5eVJqWj1UbDqrsghveFaROHEmEMFu4lOpOe9vntIYv4N94AqC5JxLNeTDf3RfTHVP8F0k4A==",
   "success": true,
-  "projectFilePath": "C:\\Codigos\\Beto-microservices-dotnet6\\Geekshoping\\Geekshoping.IdentityServer\\Geekshoping.IdentityServer.csproj",
+  "projectFilePath": "D:\\Projeto_Microservices\\Beto-microservices-dotnet6\\Geekshoping\\Geekshoping.IdentityServer\\Geekshoping.IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\betom\\.nuget\\packages\\duende.identityserver\\6.0.4\\duende.identityserver.6.0.4.nupkg.sha512",
     "C:\\Users\\betom\\.nuget\\packages\\duende.identityserver.aspnetidentity\\6.0.4\\duende.identityserver.aspnetidentity.6.0.4.nupkg.sha512",
