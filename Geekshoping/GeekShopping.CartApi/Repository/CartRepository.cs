@@ -26,11 +26,6 @@ namespace GeekShopping.CartAPI.Repository
             throw new NotImplementedException();
         }
 
-        public async Task<bool> RemoveCoupon(string userId)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task<bool> ClearCart(string userId)
         {
             var cartHeader = await _context.CartHeaders
@@ -58,6 +53,11 @@ namespace GeekShopping.CartAPI.Repository
                 .Where(c => c.CartHeaderId == cart.CartHeader.Id)
                     .Include(c => c.Product);
             return _mapper.Map<CartVO>(cart);
+        }
+
+        public async Task<bool> RemoveCoupon(string userId)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<bool> RemoveFromCart(long cartDetailsId)
@@ -110,7 +110,7 @@ namespace GeekShopping.CartAPI.Repository
                 //Create CartHeader and CartDetails
                 _context.CartHeaders.Add(cart.CartHeader);
                 await _context.SaveChangesAsync();
-                cart.CartDetails.FirstOrDefault().CartHeaderId = cartHeader.Id;
+                cart.CartDetails.FirstOrDefault().CartHeaderId = cart.CartHeader.Id;
                 cart.CartDetails.FirstOrDefault().Product = null;
                 _context.CartDetails.Add(cart.CartDetails.FirstOrDefault());
                 await _context.SaveChangesAsync();
