@@ -33,6 +33,9 @@ namespace GeekShopping.Web
             services.AddHttpClient<ICartService, CartService>(
                c => c.BaseAddress = new Uri(Configuration["ServiceUrls:CartApi"]));
 
+   //         services.AddHttpClient<ICouponService, CouponService>(
+   //c => c.BaseAddress = new Uri(Configuration["ServiceUrls:CouponApi"]));
+
             services.AddControllersWithViews();
 
             services.AddAuthentication(options =>
