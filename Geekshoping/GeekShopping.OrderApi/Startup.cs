@@ -49,6 +49,8 @@ namespace GeekShopping.OrderApi
 
             services.AddHostedService<RabbitMQCheckoutConsumer>();
 
+            services.AddHostedService<RabbitMQPaymentConsumer>();
+
             services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
 
             services.AddControllers();
@@ -75,7 +77,6 @@ namespace GeekShopping.OrderApi
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "GeekShopping.OrderApi", Version = "v1" });
-                c.EnableAnnotations();
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     Description = @"Digite 'Bearer' [espaço] e seu token!",
