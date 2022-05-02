@@ -1,6 +1,7 @@
 using GeekShopping.CartApi.Repository;
 using GeekShopping.OrderApi.MessagesConsumer;
 using GeekShopping.OrderApi.Model.Context;
+using GeekShopping.OrderApi.RabbitMQSender;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -47,6 +48,8 @@ namespace GeekShopping.OrderApi
             services.AddSingleton(new OrderRepository(builder.Options));
 
             services.AddHostedService<RabbitMQCheckoutConsumer>();
+
+            services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
 
             services.AddControllers();
 
