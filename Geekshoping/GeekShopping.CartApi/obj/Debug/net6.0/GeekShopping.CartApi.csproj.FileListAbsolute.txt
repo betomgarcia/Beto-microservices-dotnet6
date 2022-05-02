@@ -67,11 +67,14 @@ D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.Car
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\bin\Debug\net6.0\MySqlConnector.dll
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\bin\Debug\net6.0\RabbitMQ.Client.dll
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\bin\Debug\net6.0\Geekshoping.MessageBus.dll
+D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\bin\Debug\net6.0\Geekshoping.MessageBus.pdb
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\obj\Debug\net6.0\GeekShopping.CartApi.csproj.AssemblyReference.cache
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\obj\Debug\net6.0\GeekShopping.CartApi.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\obj\Debug\net6.0\GeekShopping.CartApi.AssemblyInfoInputs.cache
@@ -88,6 +91,3 @@ D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.Car
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\obj\Debug\net6.0\GeekShopping.CartApi.pdb
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\obj\Debug\net6.0\GeekShopping.CartApi.genruntimeconfig.cache
 D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\obj\Debug\net6.0\ref\GeekShopping.CartApi.dll
-D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\bin\Debug\net6.0\RabbitMQ.Client.dll
-D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\bin\Debug\net6.0\Geekshoping.MessageBus.dll
-D:\Projeto_Microservices\Beto-microservices-dotnet6\Geekshoping\GeekShopping.CartApi\bin\Debug\net6.0\Geekshoping.MessageBus.pdb
