@@ -12,11 +12,11 @@ namespace GeekShopping.ProductApi.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
-    public class ProdutoController : ControllerBase
+    public class ProductController : ControllerBase
     {
         private IProductRepository _repository;
 
-        public ProdutoController(IProductRepository repository)
+        public ProductController(IProductRepository repository)
         {
             _repository = repository ?? throw new ArgumentNullException(nameof(repository));
         }
